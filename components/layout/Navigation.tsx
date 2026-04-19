@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { categories } from "@/data/categories";
@@ -31,6 +31,7 @@ export default function Navigation({
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isSearchFocused, setIsSearchFocused] = useState(false);
   const [isCategoryDropdownOpen, setIsCategoryDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -55,6 +56,26 @@ export default function Navigation({
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
 
+  // Handle clicks outside dropdown to close it
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
+        setIsCategoryDropdownOpen(false);
+      }
+    };
+
+    if (isCategoryDropdownOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isCategoryDropdownOpen]);
+
   const handleCategorySelect = (categoryId: string) => {
     onCategorySelect(categoryId);
     setIsCategoryDropdownOpen(false);
@@ -70,18 +91,23 @@ export default function Navigation({
   };
 
   const scrollToSection = (href: string) => {
-    const element = document.querySelector(href);
-    if (element) {
-      const navHeight = 64; // Height of the fixed navigation (h-16 = 64px)
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - navHeight;
+    // Close mobile menu first
+    setIsMobileMenuOpen(false);
 
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: "smooth",
-      });
-      setIsMobileMenuOpen(false);
-    }
+    // Wait for menu close animation, then scroll
+    setTimeout(() => {
+      const element = document.querySelector(href);
+      if (element) {
+        const navHeight = 64; // Height of the fixed navigation (h-16 = 64px)
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.scrollY - navHeight;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        });
+      }
+    }, 300); // Wait 300ms for menu animation to complete
   };
 
   return (
@@ -133,7 +159,7 @@ export default function Navigation({
           {/* Center: Search Bar & Category Filter - Desktop */}
           <div className="hidden lg:flex items-center space-x-3 flex-1 max-w-2xl mx-6">
             {/* Category Dropdown */}
-            <div className="relative">
+            <div className="relative" ref={dropdownRef}>
               <motion.button
                 onClick={() =>
                   setIsCategoryDropdownOpen(!isCategoryDropdownOpen)

@@ -79,7 +79,7 @@ export default function Footer() {
           >
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <div className="space-y-2 text-slate-300">
-              <p>{contactInfo.phone}</p>
+              <p>{contactInfo.phone1}</p>
               <p>{contactInfo.email}</p>
               <div className="text-sm">
                 <p>{contactInfo.address.street}</p>
