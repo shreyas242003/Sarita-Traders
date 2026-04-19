@@ -107,14 +107,14 @@ export default function Products() {
                       <h3 className="text-2xl font-bold text-slate-900">
                         {product.name}
                       </h3>
-                      {product.featured && (
+                      {product.isFeatured && (
                         <span className="ml-3 px-2 py-1 bg-green-100 text-green-800 text-xs font-medium rounded-full">
                           Featured
                         </span>
                       )}
                     </div>
                     <p className="text-slate-600 mb-4 leading-relaxed">
-                      {product.description}
+                      {product.longDescription}
                     </p>
                   </div>
                 </div>
@@ -126,31 +126,36 @@ export default function Products() {
                     Specifications
                   </h4>
                   <ul className="space-y-2">
-                    {product.specifications.map((spec, specIndex) => (
-                      <li
-                        key={specIndex}
-                        className="text-sm text-slate-600 flex items-start"
-                      >
-                        <span className="w-1.5 h-1.5 bg-slate-400 rounded-full mr-3 mt-2 flex-shrink-0" />
-                        {spec}
-                      </li>
-                    ))}
+                    {Object.entries(product.specifications).map(
+                      ([key, value], specIndex) => (
+                        <li
+                          key={specIndex}
+                          className="text-sm text-slate-600 flex items-start"
+                        >
+                          <span className="w-1.5 h-1.5 bg-slate-400 rounded-full mr-3 mt-2 flex-shrink-0" />
+                          <span>
+                            <strong className="text-slate-700">{key}:</strong>{" "}
+                            {value}
+                          </span>
+                        </li>
+                      ),
+                    )}
                   </ul>
                 </div>
 
-                {/* Applications */}
+                {/* Search Tags */}
                 <div className="mb-6">
                   <h4 className="font-semibold text-slate-900 mb-3 flex items-center">
-                    <span className="mr-2">🎯</span>
-                    Applications
+                    <span className="mr-2">🏷️</span>
+                    Keywords
                   </h4>
                   <div className="flex flex-wrap gap-2">
-                    {product.applications.map((app, appIndex) => (
+                    {product.searchTags.map((tag, tagIndex) => (
                       <span
-                        key={appIndex}
+                        key={tagIndex}
                         className="px-3 py-1 bg-slate-100 text-slate-700 text-sm rounded-full"
                       >
-                        {app}
+                        {tag}
                       </span>
                     ))}
                   </div>

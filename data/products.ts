@@ -20,7 +20,7 @@ export const products: Product[] = [
     id: "cpvc-pipes-fittings",
     name: "CPVC Pipes & Hot Water Fittings",
     categoryId: "plumbing-piping",
-    image: "/products/cpvc.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       'SDR 11/13.5 Pipes, elbows, tees, unions, brass FTA/MTA. Sizes: 0.5" to 2".',
     longDescription:
@@ -41,7 +41,7 @@ export const products: Product[] = [
     id: "upvc-pipes-fittings",
     name: "UPVC Pipes & Cold Water Fittings",
     categoryId: "plumbing-piping",
-    image: "/products/upvc.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       'Sch 40/80 Pipes, elbows, tees, flanges. Sizes: 0.5" to 6".',
     longDescription:
@@ -62,7 +62,7 @@ export const products: Product[] = [
     id: "swr-pvc-drainage",
     name: "SWR / PVC Drainage Systems",
     categoryId: "plumbing-piping",
-    image: "/products/swr.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       'Pipes, Y-Tees, Nahani Traps, Cowl Covers. Sizes: 75mm (2.5") to 160mm (6").',
     longDescription:
@@ -82,7 +82,7 @@ export const products: Product[] = [
     id: "gi-pipes-fittings",
     name: "GI Pipes & Metal Fittings",
     categoryId: "plumbing-piping",
-    image: "/products/gi.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       'Galvanized heavy/light pipes, nipples, unions. Sizes: 0.5" to 4".',
     longDescription:
@@ -102,7 +102,7 @@ export const products: Product[] = [
     id: "valves-flow-control",
     name: "Brass & PVC Valves",
     categoryId: "plumbing-piping",
-    image: "/products/valves.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       'Brass/UPVC Ball valves, Gate valves, NRV, Float valves. Sizes: 0.5" to 4".',
     longDescription:
@@ -122,7 +122,7 @@ export const products: Product[] = [
     id: "water-storage-tanks",
     name: "Overhead Tanks & Nipples",
     categoryId: "plumbing-piping",
-    image: "/products/tank.svg",
+    image: "/products/placeholder.svg",
     shortDescription: '3/4-Layer Tanks (300L-2000L) & Tank Nipples (0.5"-2").',
     longDescription:
       "Premium 3-layer and 4-layer overhead water storage tanks. We also stock heavy-duty brass and PVC tank nipples from 0.5 inch up to 2 inch for secure plumbing connections.",
@@ -141,7 +141,7 @@ export const products: Product[] = [
     id: "flexible-hoses-connections",
     name: "Flexible Hoses & Geyser Connections",
     categoryId: "plumbing-piping",
-    image: "/products/hoses.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       "Braided geyser connections (1ft-3ft), Waste pipes, Garden hoses.",
     longDescription:
@@ -165,7 +165,7 @@ export const products: Product[] = [
     id: "faucets-bib-pillar-cocks",
     name: "Faucets: Bib, Pillar & Swan Neck Taps",
     categoryId: "sanitary-bath",
-    image: "/products/taps.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       'Pillar cocks, long/short bib cocks (toti), swan neck taps. Standard 0.5" fit.',
     longDescription:
@@ -192,7 +192,7 @@ export const products: Product[] = [
     id: "mixers-wall-sink",
     name: "Wall & Sink Mixers",
     categoryId: "sanitary-bath",
-    image: "/products/mixers.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       "2-in-1, 3-in-1 Wall mixers and Sink mixers for hot/cold flow.",
     longDescription:
@@ -212,7 +212,7 @@ export const products: Product[] = [
     id: "tap-filters-aerators",
     name: "Tap Filters & Aerators",
     categoryId: "sanitary-bath",
-    image: "/products/aerators.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       "Replacement tap filters (jaali). Sizes: 22mm, 24mm, 28mm.",
     longDescription:
@@ -232,7 +232,7 @@ export const products: Product[] = [
     id: "showers-overhead-hand",
     name: "Overhead & Hand Showers",
     categoryId: "sanitary-bath",
-    image: "/products/showers.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       'Rain showers (4"-12") & Shower arms (6"-24"), Hand shower sets.',
     longDescription:
@@ -252,7 +252,7 @@ export const products: Product[] = [
     id: "toilet-hygiene-spares",
     name: "Toilet Hygiene & Flush Spares",
     categoryId: "sanitary-bath",
-    image: "/products/hygiene.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       "Jet sprays, Seat covers, Flush tanks, and Internal syphon spares.",
     longDescription:
@@ -278,7 +278,7 @@ export const products: Product[] = [
     id: "ceramics-basins-commodes",
     name: "Ceramic Wash Basins & Commodes",
     categoryId: "sanitary-bath",
-    image: "/products/ceramics.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       'Basins (12"-24"), EWC, Anglo-Indian, Orissa Pans, Urinals.',
     longDescription:
@@ -298,7 +298,7 @@ export const products: Product[] = [
     id: "drainage-gratings-traps",
     name: "Floor Gratings, Jaalis & Traps",
     categoryId: "sanitary-bath",
-    image: "/products/gratings.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       'SS/Brass floor jaalis (3"-6"), Cockroach traps, Bottle traps, Nipples.',
     longDescription:
@@ -328,7 +328,7 @@ export const products: Product[] = [
     id: "door-hinges-bijaagari",
     name: "Hinges (Bijaagari)",
     categoryId: "architectural-doors",
-    image: "/products/hinges.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       'MS/SS/Brass Butt, Ball Bearing, L-Hinges, Piano. Sizes: 1" to 6".',
     longDescription:
@@ -348,7 +348,7 @@ export const products: Product[] = [
     id: "glass-hardware-brackets",
     name: "Glass Brackets & Hardware",
     categoryId: "architectural-doors",
-    image: "/products/glass-brackets.svg",
+    image: "/products/placeholder.svg",
     shortDescription: "L, D, F, Adjustable Brackets. For 4mm to 12mm glass.",
     longDescription:
       "Secure mounting solutions for glass shelves. Includes L-brackets, adjustable brackets, D-brackets, and F-brackets. Designed for glass thicknesses from 4mm to 12mm. Brackets available from 1 inch to 12 inch.",
@@ -367,7 +367,7 @@ export const products: Product[] = [
     id: "hooks-wall-j",
     name: "Wall & J Hooks",
     categoryId: "architectural-doors",
-    image: "/products/hooks.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       'Metal J-Hooks (1"-6") & Sticky Wall Hooks (0.5kg-5kg load).',
     longDescription:
@@ -387,7 +387,7 @@ export const products: Product[] = [
     id: "locks-mortise-cylinder",
     name: "Mortise & Cylindrical Locks",
     categoryId: "architectural-doors",
-    image: "/products/door-locks.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       'Main door handle locks (6"-10") & bedroom/bathroom cylindrical locks.',
     longDescription:
@@ -407,7 +407,7 @@ export const products: Product[] = [
     id: "padlocks-rim-latches",
     name: "Padlocks, Rim Locks & Latches",
     categoryId: "architectural-doors",
-    image: "/products/padlocks.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       "Brass/Iron/Shutter padlocks (20mm-100mm), Godrej-style rim locks.",
     longDescription:
@@ -427,7 +427,7 @@ export const products: Product[] = [
     id: "door-hardware-stoppers",
     name: "Door Hardware & Stoppers",
     categoryId: "architectural-doors",
-    image: "/products/stoppers.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       'Tower bolts (2"-12"), Aldrops (8"-14"), Stoppers, Closers.',
     longDescription:
@@ -447,7 +447,7 @@ export const products: Product[] = [
     id: "cabinet-drawer-hardware",
     name: "Cabinet & Furniture Hardware",
     categoryId: "architectural-doors",
-    image: "/products/cabinet.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       'Telescopic channels (10"-24"), Handles (3"-12"), Knobs, Catchers.',
     longDescription:
@@ -471,7 +471,7 @@ export const products: Product[] = [
     id: "screws-wood-gypsum-machine",
     name: "Screws: Wood, Gypsum & Machine",
     categoryId: "fasteners",
-    image: "/products/screws.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       'Black gypsum, sheet metal, wood, machine screws. Sizes: 0.5" to 6".',
     longDescription:
@@ -491,7 +491,7 @@ export const products: Product[] = [
     id: "nails-wire-concrete",
     name: "Nails (Khila): Wire & Concrete",
     categoryId: "fasteners",
-    image: "/products/nails.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       'Wire nails (head/headless) & Steel concrete nails. Sizes: 0.5" to 6".',
     longDescription:
@@ -511,7 +511,7 @@ export const products: Product[] = [
     id: "bolts-nuts-hex",
     name: "Bolts & Nuts",
     categoryId: "fasteners",
-    image: "/products/bolts.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       'Hex bolts, Carriage, Foundation bolts. M2 to M24, lengths up to 12".',
     longDescription:
@@ -531,7 +531,7 @@ export const products: Product[] = [
     id: "washers-anchors-rawlplugs",
     name: "Washers, Anchors & Rawlplugs (Gitti)",
     categoryId: "fasteners",
-    image: "/products/anchors.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       "Flat/Spring washers, Anchor fasteners, Plastic Rawlplugs (6mm-16mm).",
     longDescription:
@@ -551,7 +551,7 @@ export const products: Product[] = [
     id: "cable-management-zipties",
     name: "Heavy Duty Zip Ties",
     categoryId: "fasteners",
-    image: "/products/zipties.svg",
+    image: "/products/placeholder.svg",
     shortDescription: 'Nylon cable ties in Black/White. Sizes: 4" up to 20".',
     longDescription:
       "Quick and permanent cable management. UV-resistant nylon zip ties available from small 4 inch sizes up to massive 20 inch lengths for heavy bundling.",
@@ -574,7 +574,7 @@ export const products: Product[] = [
     id: "screwdrivers-testers",
     name: "Screwdrivers & Testers",
     categoryId: "tools-equipment",
-    image: "/products/screwdrivers.svg",
+    image: "/products/placeholder.svg",
     shortDescription: 'Star, Minus, and Electrical Testers. Sizes: 2" to 12".',
     longDescription:
       "High-torque screwdrivers. Star (Phillips), Minus (Slotted), line testers, and multi-bit sets. Blade lengths ranging from stubby 2 inch up to 12 inch long-reach tools.",
@@ -593,7 +593,7 @@ export const products: Product[] = [
     id: "pliers-pakkad",
     name: "Pliers (Pakkad)",
     categoryId: "tools-equipment",
-    image: "/products/pliers.svg",
+    image: "/products/placeholder.svg",
     shortDescription: 'Combination, Nose, and Cutting pliers. Sizes: 6" to 8".',
     longDescription:
       "Professional gripping tools. Combination pliers (pakkad), long nose pliers, and side-cutting pliers. Heavy insulated handles. Sizes standard 6 inch to 8 inch.",
@@ -612,7 +612,7 @@ export const products: Product[] = [
     id: "spanners-wrenches-pana",
     name: "Spanners (Pana) & Pipe Wrenches",
     categoryId: "tools-equipment",
-    image: "/products/wrenches.svg",
+    image: "/products/placeholder.svg",
     shortDescription: 'Ring/Open spanners (6"-12"), Pipe wrenches (10"-36").',
     longDescription:
       "Essential plumbing and mechanical tools. Ring/Open spanners, adjustable spanners (pana) from 6 inch to 12 inch, and heavy-duty pipe wrenches from 10 inch up to massive 36 inch.",
@@ -631,7 +631,7 @@ export const products: Product[] = [
     id: "hammers-thapi",
     name: "Hammers & Trowels (Thapi)",
     categoryId: "tools-equipment",
-    image: "/products/hammers.svg",
+    image: "/products/placeholder.svg",
     shortDescription: 'Claw/Ball Peen hammers (100g-2kg), Trowels (4"-8").',
     longDescription:
       "Striking and masonry tools. Claw hammers, ball peen hammers, and mallets (weights from 100g to 2kg). Cement trowels (thapi) from 4 inch to 8 inch.",
@@ -650,7 +650,7 @@ export const products: Product[] = [
     id: "cutting-hacksaw-files",
     name: "Hacksaws, Saws & Files",
     categoryId: "tools-equipment",
-    image: "/products/saws.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       'Hexa frames/blades (12"), Hand saws (12"-24"), Files (4"-12").',
     longDescription:
@@ -670,7 +670,7 @@ export const products: Product[] = [
     id: "measurement-tapes-levels",
     name: "Measuring Tapes & Levels",
     categoryId: "tools-equipment",
-    image: "/products/measurement.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       'Tapes (3m-30m), Spirit levels (12"-48"), Plumb bobs, Try squares.',
     longDescription:
@@ -690,7 +690,7 @@ export const products: Product[] = [
     id: "power-tool-drill-bits",
     name: "Drill Bits (Masonry, Wood, Metal)",
     categoryId: "tools-equipment",
-    image: "/products/drillbits.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       "Masonry, Wood, and HSS Metal drill bits. Sizes: 2mm to 25mm.",
     longDescription:
@@ -710,7 +710,7 @@ export const products: Product[] = [
     id: "cutting-wheels-polish-grits",
     name: "Cutting Wheels & Polish Grits",
     categoryId: "tools-equipment",
-    image: "/products/wheels.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       '4" and 14" metal/stone wheels, Polish paper (60 to 2000 grit).',
     longDescription:
@@ -740,7 +740,7 @@ export const products: Product[] = [
     id: "plumbing-solvents-cements",
     name: "Plumbing Solvents & Sealants",
     categoryId: "adhesives-chemicals",
-    image: "/products/solvents.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       "CPVC/UPVC Solvents (50ml-1L), Teflon tape, Shellac, Dhaga.",
     longDescription:
@@ -760,7 +760,7 @@ export const products: Product[] = [
     id: "general-adhesives-fevicol",
     name: "Fevicol, Resins & Instant Glue",
     categoryId: "adhesives-chemicals",
-    image: "/products/fevicol.svg",
+    image: "/products/placeholder.svg",
     shortDescription: "Fevicol (50g-5kg), Araldite Epoxy, Fevikwik (1g-3g).",
     longDescription:
       "Wood and instant bonding solutions. Fevicol (SH, SR, Marine) from 50g tubs to 5kg buckets. Epoxy resins (Araldite fast/slow), and Fevikwik instant glue drops (1g, 2g, 3g).",
@@ -779,7 +779,7 @@ export const products: Product[] = [
     id: "silicon-sealants-gun",
     name: "Silicon Sealants & Guns",
     categoryId: "adhesives-chemicals",
-    image: "/products/silicon.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       "Clear/White/Black Silicon (50g-280ml cartridge) & applicator guns.",
     longDescription:
@@ -799,7 +799,7 @@ export const products: Product[] = [
     id: "mseal-putty-grout",
     name: "M-Seal & Tile Grout",
     categoryId: "adhesives-chemicals",
-    image: "/products/mseal.svg",
+    image: "/products/placeholder.svg",
     shortDescription: "M-Seal Epoxy Putty (25g-1kg), Multicolored Tile Grout.",
     longDescription:
       "Permanent leak fixing and tile finishing. Heavy-duty M-Seal epoxy putty ranging from small 25g packs to 1kg industrial blocks. Tile grout available in various matching colors.",
@@ -818,7 +818,7 @@ export const products: Product[] = [
     id: "wd40-maintenance-spray",
     name: "WD-40 Rust & Maintenance Spray",
     categoryId: "adhesives-chemicals",
-    image: "/products/wd40.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       "Rust remover and lubricant. Sizes: 32g, 63g, 100g, 420ml.",
     longDescription:
@@ -838,7 +838,7 @@ export const products: Product[] = [
     id: "cement-putty-waterproofing",
     name: "White Cement, Putty & Dr. Fixit",
     categoryId: "adhesives-chemicals",
-    image: "/products/cement.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       "White Cement/Putty (1kg-40kg), Dr. Fixit LW+ (200ml-20L).",
     longDescription:
@@ -868,7 +868,7 @@ export const products: Product[] = [
     id: "acids-floor-cleaners",
     name: "Toilet Acids & Floor Cleaners",
     categoryId: "cleaning-materials",
-    image: "/products/acids.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       "Dilute/Concentrated Acid, Harpic, Phenyl, Tile Cleaners (500ml-5L).",
     longDescription:
@@ -888,7 +888,7 @@ export const products: Product[] = [
     id: "drain-cleaners-springs",
     name: "Drain Springs, Drainex & Handpumps",
     categoryId: "cleaning-materials",
-    image: "/products/drain.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       "Drainex powder, Fevikwik cleaner, Drain springs (3m-10m), Basin pumps.",
     longDescription:
@@ -908,7 +908,7 @@ export const products: Product[] = [
     id: "wipers-brooms-brushes",
     name: "Wipers, Brooms & Wire Brushes",
     categoryId: "cleaning-materials",
-    image: "/products/brooms.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       'Floor wipers (12"-24"), Hard brooms, Toilet & Wire brushes.',
     longDescription:
@@ -928,7 +928,7 @@ export const products: Product[] = [
     id: "cleaning-consumables",
     name: "Sponges, Cloths & Fresheners",
     categoryId: "cleaning-materials",
-    image: "/products/cloths.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       "Microfiber cloths, sponges, Naphthalene balls, Air fresheners.",
     longDescription:
@@ -952,7 +952,7 @@ export const products: Product[] = [
     id: "safety-gear-helmets",
     name: "Safety Gear: Gloves, Masks, Goggles",
     categoryId: "site-essentials",
-    image: "/products/safety.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       "Cotton/Rubber gloves, Dust masks, Safety goggles, Hard hats.",
     longDescription:
@@ -972,7 +972,7 @@ export const products: Product[] = [
     id: "packaging-tapes",
     name: "Packaging & Masking Tapes",
     categoryId: "site-essentials",
-    image: "/products/tapes.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       'Brown packing tape, Masking tape, Insulation tape. Sizes: 0.5"-3".',
     longDescription:
@@ -992,7 +992,7 @@ export const products: Product[] = [
     id: "ropes-sutli-binding",
     name: "Ropes, Sutli & Binding Wire",
     categoryId: "site-essentials",
-    image: "/products/ropes.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       "Nylon ropes (2mm-12mm), Jute Sutli (100g-1kg), Binding wire, Line thread.",
     longDescription:
@@ -1012,7 +1012,7 @@ export const products: Product[] = [
     id: "rockel-transfer-pumps",
     name: "Rockel Transfer Pumps",
     categoryId: "site-essentials",
-    image: "/products/pump.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       "Manual hand pumps for liquids, chemicals, and kerosene barrels.",
     longDescription:
@@ -1036,7 +1036,7 @@ export const products: Product[] = [
     id: "electrical-fittings",
     name: "Electrical Fittings & Extensions",
     categoryId: "basic-electricals",
-    image: "/products/fittings.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       "Bulb holders, 3-pin plugs, Ceiling rose, Extension boards.",
     longDescription:
@@ -1056,7 +1056,7 @@ export const products: Product[] = [
     id: "electrical-bulbs-wires",
     name: "LED Bulbs & Wire Bundles",
     categoryId: "basic-electricals",
-    image: "/products/wire.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       "LED Bulbs (5W-40W) & Flexible wire bundles (10m-90m coils).",
     longDescription:
@@ -1080,7 +1080,7 @@ export const products: Product[] = [
     id: "stationery-markers-pencils",
     name: "Markers, Pencils & Chalk Boxes",
     categoryId: "site-stationery",
-    image: "/products/markers.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       "Thick permanent markers, Carpenter pencils, Chalk boxes for line snapping.",
     longDescription:
@@ -1100,7 +1100,7 @@ export const products: Product[] = [
     id: "stationery-paper-cutters",
     name: "Heavy Duty Paper Cutters",
     categoryId: "site-stationery",
-    image: "/products/cutters.svg",
+    image: "/products/placeholder.svg",
     shortDescription:
       "Heavy-duty paper/box cutters with spare snap-off blades.",
     longDescription:
