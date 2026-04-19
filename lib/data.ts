@@ -1,19 +1,22 @@
 // Re-export data from the main data files
 export {
   products,
-  Product,
   getProductsByCategory,
   getActiveProducts,
   getFeaturedProducts,
   searchProducts,
   getProductById,
 } from "@/data/products";
+
+export type { Product } from "@/data/products";
+
 export {
   categories,
-  Category,
   getCategoryById,
   getActiveCategories,
 } from "@/data/categories";
+
+export type { Category } from "@/data/categories";
 
 // Legacy company info - keeping for backward compatibility
 export interface CompanyInfo {
